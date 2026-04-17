@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "name": "Authentic Apple Product",
+    "description": "Official branded product by Apple. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 124888,
+    "categoryName": "Technology",
+    "imageUrl": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Authentic Dell Product",
+    "description": "Official branded product by Dell. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 121006,
+    "categoryName": "Technology",
+    "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Authentic Asus Product",
+    "description": "Official branded product by Asus. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 124643,
+    "categoryName": "Technology",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Authentic Lenovo Product",
+    "description": "Official branded product by Lenovo. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 122859,
+    "categoryName": "Technology",
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Authentic Sony Product",
+    "description": "Official branded product by Sony. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 123819,
+    "categoryName": "Technology",
+    "imageUrl": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Authentic Samsung Product",
+    "description": "Official branded product by Samsung. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 122275,
+    "categoryName": "Technology",
+    "imageUrl": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Authentic HP Product",
+    "description": "Official branded product by HP. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 121961,
+    "categoryName": "Technology",
+    "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Authentic Alienware Product",
+    "description": "Official branded product by Alienware. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 121834,
+    "categoryName": "Technology",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Authentic Microsoft Product",
+    "description": "Official branded product by Microsoft. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 121435,
+    "categoryName": "Technology",
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Authentic Zara Product",
+    "description": "Official branded product by Zara. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3205,
+    "categoryName": "Fashion",
+    "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Authentic Gucci Product",
+    "description": "Official branded product by Gucci. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3289,
+    "categoryName": "Fashion",
+    "imageUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Authentic H&M Product",
+    "description": "Official branded product by H&M. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3663,
+    "categoryName": "Fashion",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Authentic Prada Product",
+    "description": "Official branded product by Prada. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3465,
+    "categoryName": "Fashion",
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Authentic Burberry Product",
+    "description": "Official branded product by Burberry. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3505,
+    "categoryName": "Fashion",
+    "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 15,
+    "name": "Authentic Levis Product",
+    "description": "Official branded product by Levis. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5836,
+    "categoryName": "Fashion",
+    "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 16,
+    "name": "Authentic Hermes Product",
+    "description": "Official branded product by Hermes. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2318,
+    "categoryName": "Fashion",
+    "imageUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Authentic Versace Product",
+    "description": "Official branded product by Versace. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2528,
+    "categoryName": "Fashion",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 18,
+    "name": "Authentic Rolex Product",
+    "description": "Official branded product by Rolex. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2698,
+    "categoryName": "Fashion",
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Authentic Nintendo Product",
+    "description": "Official branded product by Nintendo. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3377,
+    "categoryName": "Entertainment",
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 20,
+    "name": "Authentic PlayStation Product",
+    "description": "Official branded product by PlayStation. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5394,
+    "categoryName": "Entertainment",
+    "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 21,
+    "name": "Authentic Xbox Product",
+    "description": "Official branded product by Xbox. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3705,
+    "categoryName": "Entertainment",
+    "imageUrl": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Authentic Marvel Product",
+    "description": "Official branded product by Marvel. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5310,
+    "categoryName": "Entertainment",
+    "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 23,
+    "name": "Authentic DC Product",
+    "description": "Official branded product by DC. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2119,
+    "categoryName": "Entertainment",
+    "imageUrl": "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Authentic Hasbro Product",
+    "description": "Official branded product by Hasbro. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2274,
+    "categoryName": "Entertainment",
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Authentic Sony Product",
+    "description": "Official branded product by Sony. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 1530,
+    "categoryName": "Entertainment",
+    "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 26,
+    "name": "Authentic Lego Product",
+    "description": "Official branded product by Lego. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3277,
+    "categoryName": "Entertainment",
+    "imageUrl": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 27,
+    "name": "Authentic Bandai Product",
+    "description": "Official branded product by Bandai. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5915,
+    "categoryName": "Entertainment",
+    "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 28,
+    "name": "Authentic Herman Miller Product",
+    "description": "Official branded product by Herman Miller. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 28251,
+    "categoryName": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 29,
+    "name": "Authentic IKEA Product",
+    "description": "Official branded product by IKEA. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 28659,
+    "categoryName": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 30,
+    "name": "Authentic Ashley Product",
+    "description": "Official branded product by Ashley. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 25097,
+    "categoryName": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 31,
+    "name": "Authentic Wayfair Product",
+    "description": "Official branded product by Wayfair. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 25211,
+    "categoryName": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 32,
+    "name": "Authentic West Elm Product",
+    "description": "Official branded product by West Elm. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 27104,
+    "categoryName": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1540574163026-643ea20d25b5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 33,
+    "name": "Authentic Pottery Barn Product",
+    "description": "Official branded product by Pottery Barn. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 27356,
+    "categoryName": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 34,
+    "name": "Authentic CB2 Product",
+    "description": "Official branded product by CB2. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 25587,
+    "categoryName": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 35,
+    "name": "Authentic Crate & Barrel Product",
+    "description": "Official branded product by Crate & Barrel. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 29780,
+    "categoryName": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 36,
+    "name": "Authentic Steelcase Product",
+    "description": "Official branded product by Steelcase. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 29431,
+    "categoryName": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 37,
+    "name": "Authentic LG Product",
+    "description": "Official branded product by LG. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 4354,
+    "categoryName": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 38,
+    "name": "Authentic Samsung Product",
+    "description": "Official branded product by Samsung. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 1778,
+    "categoryName": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1584286595398-a59f21d313f5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 39,
+    "name": "Authentic Whirlpool Product",
+    "description": "Official branded product by Whirlpool. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 6359,
+    "categoryName": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1626808642875-0aa545ed7d0d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 40,
+    "name": "Authentic Bosch Product",
+    "description": "Official branded product by Bosch. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5914,
+    "categoryName": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 41,
+    "name": "Authentic Dyson Product",
+    "description": "Official branded product by Dyson. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 1802,
+    "categoryName": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1590756254032-40c2162649a3?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 42,
+    "name": "Authentic Philips Product",
+    "description": "Official branded product by Philips. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 1544,
+    "categoryName": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 43,
+    "name": "Authentic Panasonic Product",
+    "description": "Official branded product by Panasonic. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 4196,
+    "categoryName": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1584286595398-a59f21d313f5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 44,
+    "name": "Authentic Miele Product",
+    "description": "Official branded product by Miele. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3102,
+    "categoryName": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1626808642875-0aa545ed7d0d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 45,
+    "name": "Authentic KitchenAid Product",
+    "description": "Official branded product by KitchenAid. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 4473,
+    "categoryName": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 46,
+    "name": "Authentic Nike Product",
+    "description": "Official branded product by Nike. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5257,
+    "categoryName": "Footwears",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 47,
+    "name": "Authentic Adidas Product",
+    "description": "Official branded product by Adidas. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2849,
+    "categoryName": "Footwears",
+    "imageUrl": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 48,
+    "name": "Authentic Puma Product",
+    "description": "Official branded product by Puma. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 4893,
+    "categoryName": "Footwears",
+    "imageUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 49,
+    "name": "Authentic Reebok Product",
+    "description": "Official branded product by Reebok. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3286,
+    "categoryName": "Footwears",
+    "imageUrl": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 50,
+    "name": "Authentic Timberland Product",
+    "description": "Official branded product by Timberland. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2945,
+    "categoryName": "Footwears",
+    "imageUrl": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 51,
+    "name": "Authentic Vans Product",
+    "description": "Official branded product by Vans. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2258,
+    "categoryName": "Footwears",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 52,
+    "name": "Authentic Converse Product",
+    "description": "Official branded product by Converse. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5994,
+    "categoryName": "Footwears",
+    "imageUrl": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 53,
+    "name": "Authentic Under Armour Product",
+    "description": "Official branded product by Under Armour. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3890,
+    "categoryName": "Footwears",
+    "imageUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 54,
+    "name": "Authentic New Balance Product",
+    "description": "Official branded product by New Balance. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2652,
+    "categoryName": "Footwears",
+    "imageUrl": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 55,
+    "name": "Authentic Penguin Product",
+    "description": "Official branded product by Penguin. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5393,
+    "categoryName": "Books",
+    "imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 56,
+    "name": "Authentic HarperCollins Product",
+    "description": "Official branded product by HarperCollins. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 1844,
+    "categoryName": "Books",
+    "imageUrl": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 57,
+    "name": "Authentic Macmillan Product",
+    "description": "Official branded product by Macmillan. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2285,
+    "categoryName": "Books",
+    "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 58,
+    "name": "Authentic Simon & Schuster Product",
+    "description": "Official branded product by Simon & Schuster. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5449,
+    "categoryName": "Books",
+    "imageUrl": "https://images.unsplash.com/photo-1524578971084-dfae59d3eec9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 59,
+    "name": "Authentic Hachette Product",
+    "description": "Official branded product by Hachette. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 4663,
+    "categoryName": "Books",
+    "imageUrl": "https://images.unsplash.com/photo-1544716278-e513176b2210?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 60,
+    "name": "Authentic Scholastic Product",
+    "description": "Official branded product by Scholastic. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 4969,
+    "categoryName": "Books",
+    "imageUrl": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 61,
+    "name": "Authentic Pearson Product",
+    "description": "Official branded product by Pearson. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3741,
+    "categoryName": "Books",
+    "imageUrl": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 62,
+    "name": "Authentic McGraw-Hill Product",
+    "description": "Official branded product by McGraw-Hill. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 6463,
+    "categoryName": "Books",
+    "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 63,
+    "name": "Authentic Oxford Product",
+    "description": "Official branded product by Oxford. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5140,
+    "categoryName": "Books",
+    "imageUrl": "https://images.unsplash.com/photo-1524578971084-dfae59d3eec9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 64,
+    "name": "Authentic Wilson Product",
+    "description": "Official branded product by Wilson. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 5194,
+    "categoryName": "Sports",
+    "imageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 65,
+    "name": "Authentic Spalding Product",
+    "description": "Official branded product by Spalding. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 4406,
+    "categoryName": "Sports",
+    "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 66,
+    "name": "Authentic Rawlings Product",
+    "description": "Official branded product by Rawlings. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3715,
+    "categoryName": "Sports",
+    "imageUrl": "https://images.unsplash.com/photo-1518611012118-69007e781075?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 67,
+    "name": "Authentic Babolat Product",
+    "description": "Official branded product by Babolat. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 1639,
+    "categoryName": "Sports",
+    "imageUrl": "https://images.unsplash.com/photo-1600965962361-f4c0840c9469?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 68,
+    "name": "Authentic Titleist Product",
+    "description": "Official branded product by Titleist. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2141,
+    "categoryName": "Sports",
+    "imageUrl": "https://images.unsplash.com/photo-1534440050810-74591a27e02e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 69,
+    "name": "Authentic Gatorade Product",
+    "description": "Official branded product by Gatorade. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 4276,
+    "categoryName": "Sports",
+    "imageUrl": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 70,
+    "name": "Authentic Bowflex Product",
+    "description": "Official branded product by Bowflex. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3414,
+    "categoryName": "Sports",
+    "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 71,
+    "name": "Authentic Peloton Product",
+    "description": "Official branded product by Peloton. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3587,
+    "categoryName": "Sports",
+    "imageUrl": "https://images.unsplash.com/photo-1518611012118-69007e781075?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 72,
+    "name": "Authentic Speedo Product",
+    "description": "Official branded product by Speedo. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2087,
+    "categoryName": "Sports",
+    "imageUrl": "https://images.unsplash.com/photo-1600965962361-f4c0840c9469?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 73,
+    "name": "Authentic Ford Product",
+    "description": "Official branded product by Ford. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 11589,
+    "categoryName": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 74,
+    "name": "Authentic Toyota Product",
+    "description": "Official branded product by Toyota. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 12833,
+    "categoryName": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1503376713504-20704403165b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 75,
+    "name": "Authentic Honda Product",
+    "description": "Official branded product by Honda. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 8177,
+    "categoryName": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 76,
+    "name": "Authentic BMW Product",
+    "description": "Official branded product by BMW. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 9679,
+    "categoryName": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 77,
+    "name": "Authentic Mercedes Product",
+    "description": "Official branded product by Mercedes. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 12702,
+    "categoryName": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 78,
+    "name": "Authentic Audi Product",
+    "description": "Official branded product by Audi. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 10032,
+    "categoryName": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 79,
+    "name": "Authentic Chevrolet Product",
+    "description": "Official branded product by Chevrolet. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 9468,
+    "categoryName": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1503376713504-20704403165b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 80,
+    "name": "Authentic Tesla Product",
+    "description": "Official branded product by Tesla. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 11662,
+    "categoryName": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 81,
+    "name": "Authentic Nissan Product",
+    "description": "Official branded product by Nissan. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 9764,
+    "categoryName": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 82,
+    "name": "Authentic Nestle Product",
+    "description": "Official branded product by Nestle. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 6310,
+    "categoryName": "Groceries",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 83,
+    "name": "Authentic PepsiCo Product",
+    "description": "Official branded product by PepsiCo. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 1633,
+    "categoryName": "Groceries",
+    "imageUrl": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 84,
+    "name": "Authentic Coca-Cola Product",
+    "description": "Official branded product by Coca-Cola. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2941,
+    "categoryName": "Groceries",
+    "imageUrl": "https://images.unsplash.com/photo-1506459225024-1428097a7e18?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 85,
+    "name": "Authentic Kellogg's Product",
+    "description": "Official branded product by Kellogg's. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3614,
+    "categoryName": "Groceries",
+    "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 86,
+    "name": "Authentic Mars Product",
+    "description": "Official branded product by Mars. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 3446,
+    "categoryName": "Groceries",
+    "imageUrl": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 87,
+    "name": "Authentic Heinz Product",
+    "description": "Official branded product by Heinz. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 1736,
+    "categoryName": "Groceries",
+    "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 88,
+    "name": "Authentic Kraft Product",
+    "description": "Official branded product by Kraft. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 2081,
+    "categoryName": "Groceries",
+    "imageUrl": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 89,
+    "name": "Authentic General Mills Product",
+    "description": "Official branded product by General Mills. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 4824,
+    "categoryName": "Groceries",
+    "imageUrl": "https://images.unsplash.com/photo-1506459225024-1428097a7e18?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 90,
+    "name": "Authentic Danone Product",
+    "description": "Official branded product by Danone. Features premium materials and robust construction highly rated by reviewers worldwide.",
+    "price": 6315,
+    "categoryName": "Groceries",
+    "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80"
+  }
+]

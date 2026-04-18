@@ -17,12 +17,14 @@ const Login = () => {
       const res = await api.post('/auth/login', { email, password });
       localStorage.setItem('token', res.data.token);
       localStorage.setItem('role', res.data.role);
+      window.dispatchEvent(new Event('authChange'));
       navigate('/dashboard');
     } catch (err) {
       if (!err.response || err.message === 'Network Error') {
          localStorage.setItem('token', 'mock-presentation-token-123');
          localStorage.setItem('role', 'USER');
          localStorage.setItem('name', email.split("@")[0] || 'User');
+         window.dispatchEvent(new Event('authChange'));
          navigate('/dashboard');
       } else {
          setError('Invalid credentials or server error.');

@@ -15,12 +15,14 @@ const Register = () => {
       const res = await api.post('/auth/register', { name, email, password });
       localStorage.setItem('token', res.data.token);
       localStorage.setItem('role', res.data.role);
+      window.dispatchEvent(new Event('authChange'));
       navigate('/dashboard');
     } catch (err) {
       if (!err.response) { // Network Error or backend offline
          localStorage.setItem('token', 'mock-presentation-token');
          localStorage.setItem('role', 'USER');
          localStorage.setItem('name', name);
+         window.dispatchEvent(new Event('authChange'));
          navigate('/dashboard');
       } else if (err.response?.data?.message) {
          setError(err.response.data.message);

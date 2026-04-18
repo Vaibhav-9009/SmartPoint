@@ -5,11 +5,20 @@ import { CartContext } from '../context/CartContext';
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const token = localStorage.getItem('token');
   const { cartCount } = useContext(CartContext);
-  const role = localStorage.getItem('role');
+  const [token, setToken] = useState(() => localStorage.getItem('token'));
+  const [role, setRole] = useState(() => localStorage.getItem('role'));
 
   const [activeAddress, setActiveAddress] = useState({ name: 'Vaibhav', loc: 'Bangalore 560001' });
+
+  useEffect(() => {
+     const checkAuth = () => {
+        setToken(localStorage.getItem('token'));
+        setRole(localStorage.getItem('role'));
+     };
+     window.addEventListener('authChange', checkAuth);
+     return () => window.removeEventListener('authChange', checkAuth);
+  }, []);
 
   useEffect(() => {
      const parseAddress = () => {
@@ -38,6 +47,7 @@ const Navbar = () => {
   const handleLogout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('role');
+    window.dispatchEvent(new Event('authChange'));
     navigate('/login');
   };
 
@@ -46,8 +56,15 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-stretch">
-            <div className="flex-shrink-0 flex items-center pr-6 border-r border-gray-100">
-              <Link to="/" className="text-3xl font-extrabold text-gray-900 tracking-tight">Smart<span className="text-blue-600">Point</span></Link>
+            <div className="flex items-center">
+            <div className="flex-shrink-0">
+              <Link to="/" className="flex items-center gap-2 group">
+                 <div className="relative w-12 h-12 flex items-center justify-center overflow-hidden mix-blend-multiply">
+                     <img src="/logo.png" alt="SmartPoint Logo" onError={(e) => e.target.style.display = 'none'} className="w-[120%] h-[120%] object-cover group-hover:scale-110 transition-transform duration-300 drop-shadow-sm" />
+                 </div>
+                 <span className="text-3xl font-extrabold text-gray-900 tracking-tight drop-shadow-sm">Smart<span className="text-blue-600">Point</span></span>
+              </Link>
+            </div>
             </div>
             
             <Link to="/dashboard#address" className="hidden md:flex ml-4 items-center px-4 py-2 rounded-lg hover:bg-gray-50 cursor-pointer group transition-colors focus:outline-none w-48 border border-transparent hover:border-gray-200 shadow-sm hover:shadow-md bg-white">

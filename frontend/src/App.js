@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Laptop, Shirt, Gamepad2, Armchair, Coffee, Footprints, BookOpen, Trophy, Car, ShoppingBasket, LayoutGrid, Package, CreditCard, MessageSquare, User, Clock, CheckCircle, MapPin, Filter, Heart, Mail, Trash2 } from 'lucide-react';
 import { CartProvider, CartContext } from './context/CartContext';
 import Navbar from './components/Navbar';
@@ -553,7 +553,14 @@ const QueriesTab = () => {
 
 const Dashboard = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState(location.hash === '#address' ? 'address' : 'orders');
+
+  useEffect(() => {
+      if(!localStorage.getItem('token')) {
+          navigate('/login');
+      }
+  }, [navigate]);
 
   useEffect(() => {
      if (location.hash === '#address') {

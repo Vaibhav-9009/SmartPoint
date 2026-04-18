@@ -1,7 +1,7 @@
 # 🎯 SmartPoint Ecommerce Platform
 An interactive, premium-tier Full-Stack E-commerce platform developed specifically as a University Capstone Project. It marries high-performance Java Spring Boot architecture natively with a glassmorphic front-end built intricately via React and TailwindCSS.
 ### 🌐 Live Deployment
-**Frontend (Vercel):** https://ecommerce-smartpoint.vercel.app?_vercel_share=2NWuoKf8sHqPV63ivmq9DJkJA0SdvxAI 
+ https://ecommerce-smartpoint.vercel.app?_vercel_share=2NWuoKf8sHqPV63ivmq9DJkJA0SdvxAI 
 ---
 ## 🚀 Tech Stack
 **Frontend:**
